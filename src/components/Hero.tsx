@@ -5,7 +5,7 @@ import salonHero from "@/assets/salon-hero.jpg";
 import nailStudio from "@/assets/nail-studio.jpg";
 import hairService from "@/assets/hair-service.jpg";
 import makeupService from "@/assets/makeup-service.jpg";
-import bg1 from "@/assets/samayabg1.png";
+import bg1 from "@/assets/Samayabg1.png";
 import bg2 from "@/assets/samayabg2.png";
 import bg4 from "@/assets/samayabg4.png";
 import bg5 from "@/assets/samayabg5.png";
