@@ -37,13 +37,6 @@ const Contact = () => {
       description: "Follow our latest work",
       action: () => window.open('https://instagram.com/samayasalon', '_blank'),
       color: "bg-pink-500"
-    },
-    {
-      icon: Mail,
-      name: "Email",
-      description: "info@samayasalon.com",
-      action: () => window.open('mailto:info@samayasalon.com', '_self'),
-      color: "bg-blue-500"
     }
   ];
 

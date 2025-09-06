@@ -86,7 +86,7 @@ const Reviews = () => {
           <Button 
             size="lg" 
             className="bg-salon-gradient hover:bg-salon-gradient-dark shadow-elegant mb-8"
-            onClick={() => window.open('https://g.page/r/YOUR_GOOGLE_BUSINESS_ID/review', '_blank')}
+           onClick={() => window.open("https://www.google.com/maps/place/Samaya+Salon+for+her/@20.950699,72.9223022,17z/data=!3m1!4b1!4m6!3m5!1s0x3be0f703bf0c3251:0x73c5b0903e12f4d6!8m2!3d20.950699!4d72.9248771!16s%2Fg%2F11xv_8qysp?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D", "_blank")}
           >
             <Star className="w-5 h-5 mr-2" />
             Write a Review on Google
@@ -127,14 +127,15 @@ const Reviews = () => {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-salon-gradient hover:bg-salon-gradient-dark">
+            <Button size="lg" className="bg-salon-gradient hover:bg-salon-gradient-dark"
+              onClick={() => window.open("https://wa.me/919328731878?text=Hi! I would like to book an appointment at Samaya Salon.", "_blank")}>
               Book Appointment
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               className="border-salon-purple text-salon-purple hover:bg-salon-purple hover:text-white"
-              onClick={() => window.open('https://www.google.com/maps/place/YOUR_SALON_ADDRESS', '_blank')}
+              onClick={() => window.open('https://www.google.com/maps/place/Samaya+Salon+for+her/@20.950699,72.9223022,17z/data=!3m1!4b1!4m6!3m5!1s0x3be0f703bf0c3251:0x73c5b0903e12f4d6!8m2!3d20.950699!4d72.9248771!16s%2Fg%2F11xv_8qysp?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D', '_blank')}
             >
               View All Google Reviews
             </Button>

@@ -19,8 +19,8 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="text-2xl font-bold bg-salon-gradient bg-clip-text text-transparent mb-8">
-            Samaya Salon <span className="text-sm newclass">for her</span>
+          <div className="text-2xl font-bold bg-salon-gradient bg-clip-text text-transparent mb-8 header">
+            Samaya Salon <span className="text-sm">for her</span>
           </div>
 
 

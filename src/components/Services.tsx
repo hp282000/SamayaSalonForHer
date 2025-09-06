@@ -114,6 +114,8 @@ const Services = () => {
                   <Button 
                     variant="outline" 
                     className="w-full border-salon-purple text-salon-purple hover:bg-salon-purple hover:text-white"
+                    //service name pass in message  
+                    onClick={() => window.open(`https://wa.me/919328731878?text=Hi! I would like to book an appointment for ${service.title} at Samaya Salon.`, "_blank")}
                   >
                     Book Now
                   </Button>
@@ -123,9 +125,9 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button size="lg" className="bg-salon-gradient hover:bg-salon-gradient-dark shadow-elegant">
+          {/* <Button size="lg" className="bg-salon-gradient hover:bg-salon-gradient-dark shadow-elegant">
             View All Services & Prices
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>

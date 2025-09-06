@@ -102,9 +102,9 @@ const NailClasses = () => {
     <p className="mb-6 max-w-md mx-auto">
       Our state-of-the-art nail studio provides the perfect setting for hands-on learning and creativity.
     </p>
-      <a href="https://wa.me/919328731878?text=Hi! I would like to book an appointment at Samaya Salon.">
+      <a href="https://wa.me/919328731878?text=Hi! I would like to know more about your nail classes at Samaya Salon. When next batch starts and fees?" target="_blank" rel="noopener noreferrer">
         <Button size="lg" className="bg-white text-salon-purple hover:bg-white/90">
-          Schedule a Visit
+          Schedule a Nail Visit
         </Button>
       </a>
   </div>
@@ -171,7 +171,8 @@ const NailClasses = () => {
                   </ul>
                 </div>
 
-                <Button className="w-full bg-salon-gradient hover:bg-salon-gradient-dark">
+                <Button className="w-full bg-salon-gradient hover:bg-salon-gradient-dark"
+                onClick={() => window.open('https://wa.me/919328731878?text=Hi! I would like to enroll in the ' + course.title + ' at Samaya Salon.', '_blank')}>
                   Enroll Now
                 </Button>
               </CardContent>
@@ -184,10 +185,11 @@ const NailClasses = () => {
             Have questions about our courses? Contact us for personalized guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="outline" size="lg" className="border-salon-purple text-salon-purple hover:bg-salon-purple hover:text-white">
+            {/* <Button variant="outline" size="lg" className="border-salon-purple text-salon-purple hover:bg-salon-purple hover:text-white">
               Download Brochure
-            </Button>
-            <Button size="lg" className="bg-salon-gradient hover:bg-salon-gradient-dark">
+            </Button> */}
+            <Button size="lg" className="bg-salon-gradient hover:bg-salon-gradient-dark"
+            onClick={() => window.open('https://wa.me/919328731878?text=Hi! I would like to know more about for Samaya Salon. when i can visit the salon?', '_blank')}>
               Book Consultation
             </Button>
           </div>

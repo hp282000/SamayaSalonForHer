@@ -113,16 +113,19 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8  animate-fade-in" style={{ animationDelay: "0.4s" }}>
               {/* Add icons also */}
 
-              {/* Calendar icon */}
-              
-              
-              <Button size="lg" className="bg-white text-salon-purple hover:bg-white/90 shadow-elegant">
+
+              <Button
+                size="lg"
+                className="bg-white text-salon-purple hover:bg-white/90 shadow-elegant"
+                onClick={() => window.open("https://wa.me/919328731878?text=Hi! I would like to book an appointment at Samaya Salon.", "_blank")}
+              >
                 <Calendar className="w-5 h-5 text-salon-purple" /> Book Appointment
               </Button>
 
               {/* Review icon */}
               
-              <Button size="lg" className="bg-white text-salon-purple hover:bg-white/90 shadow-elegant">
+              <Button size="lg" className="bg-white text-salon-purple hover:bg-white/90 shadow-elegant"
+                onClick={() => window.open("https://www.google.com/maps/place/Samaya+Salon+for+her/@20.950699,72.9223022,17z/data=!3m1!4b1!4m6!3m5!1s0x3be0f703bf0c3251:0x73c5b0903e12f4d6!8m2!3d20.950699!4d72.9248771!16s%2Fg%2F11xv_8qysp?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D", "_blank")}>
                 <Star className="w-5 h-5 text-salon-purple" />Review Us On Maps
               </Button>
                
